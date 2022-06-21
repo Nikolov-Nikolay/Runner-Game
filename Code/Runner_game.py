@@ -30,9 +30,9 @@ while True:
             if player_rectangle.collidepoint(event.pos) and player_rectangle.bottom == 600:
                 player_gravity = -20
 
-        if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE and player_rectangle.bottom == 600:
-                player_gravity = -20
+        # if event.type == pygame.KEYDOWN:
+        #     if event.key == pygame.K_SPACE and player_rectangle.bottom == 600:
+        #         player_gravity = -20
 
         # if keys[pygame.K_RIGHT]:
         #     pass
